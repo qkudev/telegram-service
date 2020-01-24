@@ -16,6 +16,3 @@ bot2.onText(/\/start/, async (msg) => {
   const chatId = msg.chat.id;
   await bot1.sendMessage(chatId, 'HELLO 2');
 })
-
-async function start() {
-}
